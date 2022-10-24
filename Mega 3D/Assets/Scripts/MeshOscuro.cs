@@ -169,6 +169,18 @@ public class MeshOscuro : MonoBehaviour
             new Vector3 (4,12,0), //128
             new Vector3 (4,13,0), //129
 
+            //cabezaza
+            new Vector3 (9,11,0), //130
+            new Vector3 (9,12,0), //131
+            new Vector3 (8,12,0), //132
+            new Vector3 (8,13,0), //133
+            new Vector3 (9,13,0), //134
+            new Vector3 (7,13,0), //135
+            new Vector3 (7,14,0), //136
+            new Vector3 (8,14,0), //137
+            new Vector3 (7,15,0), //138
+            new Vector3 (5,15,0), //139
+
         };
 
         mesh.vertices = vertices;

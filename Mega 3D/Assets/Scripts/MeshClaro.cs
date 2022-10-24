@@ -159,6 +159,27 @@ public class MeshClaro : MonoBehaviour
             //Torso
             new Vector3 (7,8,0), //121
             new Vector3 (14,8,0), //122
+
+            //brazo izquierdo color
+            new Vector3 (2,9,0), //123
+            new Vector3 (4,11,0), //124
+            new Vector3 (5,11,0), //125
+            new Vector3 (5,12,0), //126
+            new Vector3 (3,12,0), //127
+            new Vector3 (4,12,0), //128
+            new Vector3 (4,13,0), //129
+
+            //cabezaza
+            new Vector3 (9,11,0), //130
+            new Vector3 (9,12,0), //131
+            new Vector3 (8,12,0), //132
+            new Vector3 (8,13,0), //133
+            new Vector3 (9,13,0), //134
+            new Vector3 (7,13,0), //135
+            new Vector3 (7,14,0), //136
+            new Vector3 (8,14,0), //137
+            new Vector3 (7,15,0), //138
+            new Vector3 (5,15,0), //139
         };
 
         mesh.vertices = vertices;
@@ -192,6 +213,17 @@ public class MeshClaro : MonoBehaviour
             //torso
             121,106,122, //t19
             106,70,122, //t20
+
+            //brazo izquierdo
+            102,125,104, //t21
+            125,105,104, //t22
+            125,126,130, //t23
+            126,131,130, //t24
+            128,129,132, //t25
+            129,133,132, //t26
+            120,119,135, //t28
+            119,136,135, //t29
+
         };
 
         mesh.triangles = triangles;

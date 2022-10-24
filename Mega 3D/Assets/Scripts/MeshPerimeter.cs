@@ -157,6 +157,33 @@ public class MeshPerimeter : MonoBehaviour
             new Vector3 (5,14,0), //119
             new Vector3 (5,13,0), //120
 
+            //Torso
+            new Vector3 (7,8,0), //121
+            new Vector3 (14,8,0), //122
+
+            //brazo izquierdo color
+            new Vector3 (2,9,0), //123
+            new Vector3 (4,11,0), //124
+            new Vector3 (5,11,0), //125
+            new Vector3 (5,12,0), //126
+            new Vector3 (3,12,0), //127
+            new Vector3 (4,12,0), //128
+            new Vector3 (4,13,0), //129
+
+            //cabezaza
+            new Vector3 (9,11,0), //130
+            new Vector3 (9,12,0), //131
+            new Vector3 (8,12,0), //132
+            new Vector3 (8,13,0), //133
+            new Vector3 (9,13,0), //134
+            new Vector3 (7,13,0), //135
+            new Vector3 (7,14,0), //136
+            new Vector3 (8,14,0), //137
+            new Vector3 (7,15,0), //138
+            new Vector3 (5,15,0), //139
+
+
+
         };
 
         mesh.vertices = vertices;
@@ -238,6 +265,16 @@ public class MeshPerimeter : MonoBehaviour
             115,116,117, //t66
             116,118,120, //t67
             118,119,120, //t68
+
+            //Cabeza
+            130,131,70, //t69
+            131,89,70, //t70
+            132,133,131, //t71
+            133,134,131, //t72
+            135,136,133, //t73
+            136,137,133, //t74
+            119,139,136, //t75
+            139,138,136, //t76
 
         };
 
