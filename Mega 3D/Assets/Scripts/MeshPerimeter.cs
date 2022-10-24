@@ -139,6 +139,23 @@ public class MeshPerimeter : MonoBehaviour
             new Vector3 (5,7,0), //101
             new Vector3 (5,10,0), //102
             new Vector3 (7,10,0), //103
+            new Vector3 (6,10,0), //104
+            new Vector3 (6,11,0), //105
+            new Vector3 (7,11,0), //106
+            new Vector3 (5,9,0), //107
+            new Vector3 (4,9,0), //108
+            new Vector3 (4,10,0), //109
+            new Vector3 (2,6,0), //110
+            new Vector3 (2,7,0), //111
+            new Vector3 (1,7,0), //112
+            new Vector3 (1,11,0), //113
+            new Vector3 (2,11,0), //114
+            new Vector3 (2,13,0), //115
+            new Vector3 (3,13,0), //116
+            new Vector3 (3,11,0), //117
+            new Vector3 (3,14,0), //118
+            new Vector3 (5,14,0), //119
+            new Vector3 (5,13,0), //120
 
         };
 
@@ -207,6 +224,20 @@ public class MeshPerimeter : MonoBehaviour
             //Brazo Derecho
             22,98,100, //t53
             98,99,100, //t54
+            101,102,99, //t55
+            102,103,99, //t56
+            104,105,103, //t57
+            105,106,103, //t58
+            108,109,107, //t59
+            109,102,107, //t60
+            110,111,20, //t61
+            111,101,20, //t62
+            112,113,111, //t63
+            113,114,111, //t64
+            114,115,117, //t65
+            115,116,117, //t66
+            116,118,120, //t67
+            118,119,120, //t68
 
         };
 

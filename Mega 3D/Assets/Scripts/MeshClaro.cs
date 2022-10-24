@@ -130,6 +130,35 @@ public class MeshClaro : MonoBehaviour
             new Vector3 (18,12,0), //95
             new Vector3 (17,12,0), //96
             new Vector3 (17,13,0), //97
+
+             //Brazo Izquierdo
+            new Vector3 (6,7,0), //98
+            new Vector3 (7,7,0), //99
+            new Vector3 (7,6,0), //100
+            new Vector3 (5,7,0), //101
+            new Vector3 (5,10,0), //102
+            new Vector3 (7,10,0), //103
+            new Vector3 (6,10,0), //104
+            new Vector3 (6,11,0), //105
+            new Vector3 (7,11,0), //106
+            new Vector3 (5,9,0), //107
+            new Vector3 (4,9,0), //108
+            new Vector3 (4,10,0), //109
+            new Vector3 (2,6,0), //110
+            new Vector3 (2,7,0), //111
+            new Vector3 (1,7,0), //112
+            new Vector3 (1,11,0), //113
+            new Vector3 (2,11,0), //114
+            new Vector3 (2,13,0), //115
+            new Vector3 (3,13,0), //116
+            new Vector3 (3,11,0), //117
+            new Vector3 (3,14,0), //118
+            new Vector3 (5,14,0), //119
+            new Vector3 (5,13,0), //120
+
+            //Torso
+            new Vector3 (7,8,0), //121
+            new Vector3 (14,8,0), //122
         };
 
         mesh.vertices = vertices;
@@ -160,6 +189,9 @@ public class MeshClaro : MonoBehaviour
             88,86,96, //t17
             86,97,96, //t18
 
+            //torso
+            121,106,122, //t19
+            106,70,122, //t20
         };
 
         mesh.triangles = triangles;

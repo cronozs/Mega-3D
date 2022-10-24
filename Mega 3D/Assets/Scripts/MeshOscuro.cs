@@ -130,6 +130,45 @@ public class MeshOscuro : MonoBehaviour
             new Vector3 (18,12,0), //95
             new Vector3 (17,12,0), //96
             new Vector3 (17,13,0), //97
+
+             //Brazo Izquierdo
+            new Vector3 (6,7,0), //98
+            new Vector3 (7,7,0), //99
+            new Vector3 (7,6,0), //100
+            new Vector3 (5,7,0), //101
+            new Vector3 (5,10,0), //102
+            new Vector3 (7,10,0), //103
+            new Vector3 (6,10,0), //104
+            new Vector3 (6,11,0), //105
+            new Vector3 (7,11,0), //106
+            new Vector3 (5,9,0), //107
+            new Vector3 (4,9,0), //108
+            new Vector3 (4,10,0), //109
+            new Vector3 (2,6,0), //110
+            new Vector3 (2,7,0), //111
+            new Vector3 (1,7,0), //112
+            new Vector3 (1,11,0), //113
+            new Vector3 (2,11,0), //114
+            new Vector3 (2,13,0), //115
+            new Vector3 (3,13,0), //116
+            new Vector3 (3,11,0), //117
+            new Vector3 (3,14,0), //118
+            new Vector3 (5,14,0), //119
+            new Vector3 (5,13,0), //120
+
+            //Torso
+            new Vector3 (7,8,0), //121
+            new Vector3 (14,8,0), //122
+
+            //brazo izquierdo color
+            new Vector3 (2,9,0), //123
+            new Vector3 (4,11,0), //124
+            new Vector3 (5,11,0), //125
+            new Vector3 (5,12,0), //126
+            new Vector3 (3,12,0), //127
+            new Vector3 (4,12,0), //128
+            new Vector3 (4,13,0), //129
+
         };
 
         mesh.vertices = vertices;
@@ -171,6 +210,22 @@ public class MeshOscuro : MonoBehaviour
             94,95,84, //t26
             96,97,95, //t27
             97,83,95, //t28
+
+            //torso
+            100,121,64, //t29
+            121,122,64, //t30
+
+            //brazoo izquierdo
+            111,123,101, //t31
+            123,107,101, //t32
+            123,114,108, //t33
+            114,124,108, //t34
+            109,124,102, //t35
+            124,125,102, //t36
+            117,127,125, //t37
+            127,126,125, //t38
+            127,116,128, //t39
+            116,129,128, //t40
 
         };
 
