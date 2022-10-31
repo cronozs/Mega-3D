@@ -169,7 +169,7 @@ public class MeshOscuro : MonoBehaviour
             new Vector3 (4,12,0), //128
             new Vector3 (4,13,0), //129
 
-            //cabezaza
+             //cabezaza
             new Vector3 (9,11,0), //130
             new Vector3 (9,12,0), //131
             new Vector3 (8,12,0), //132
@@ -180,6 +180,57 @@ public class MeshOscuro : MonoBehaviour
             new Vector3 (8,14,0), //137
             new Vector3 (7,15,0), //138
             new Vector3 (5,15,0), //139
+            new Vector3 (6,15,0), //140
+            new Vector3 (6,16,0), //141
+            new Vector3 (7,16,0), //142
+            new Vector3 (5,16,0), //143
+            new Vector3 (5,19,0), //144
+            new Vector3 (6,19,0), //145
+            new Vector3 (6,21,0), //146
+            new Vector3 (7,19,0), //147
+            new Vector3 (7,21,0), //148
+            new Vector3 (7,22,0), //149
+            new Vector3 (8,21,0), //150
+            new Vector3 (8,22,0), //151
+            new Vector3 (8,23,0), //152
+            new Vector3 (11,22,0), //153
+            new Vector3 (11,23,0), //154
+            new Vector3 (10,23,0), //155
+            new Vector3 (10,24,0), //156
+            new Vector3 (13,23,0), //157
+            new Vector3 (13,24,0), //158
+            new Vector3 (13,22,0), //159
+            new Vector3 (14,22,0), //160
+            new Vector3 (14,23,0), //161
+            new Vector3 (14,21,0), //162
+            new Vector3 (15,21,0), //163
+            new Vector3 (15,22,0), //164
+            new Vector3 (11,21,0), //165
+            new Vector3 (12,21,0), //166
+            new Vector3 (12,22,0), //167
+            new Vector3 (12,20,0), //168
+            new Vector3 (16,20,0), //169
+            new Vector3 (16,21,0), //170
+            new Vector3 (12,19,0), //171
+            new Vector3 (13,19,0), //172
+            new Vector3 (13,20,0), //173
+            new Vector3 (13,18,0), //174
+            new Vector3 (15,18,0), //175
+            new Vector3 (15,19,0), //176
+            new Vector3 (16,14,0), //177
+            new Vector3 (17,14,0), //178
+            new Vector3 (17,20,0), //179
+            new Vector3 (15,20,0), //180
+            new Vector3 (7,18,0),  //181
+            new Vector3 (12,18,0), //182
+            new Vector3 (7,17,0), //183
+            new Vector3 (9,17,0), //184
+            new Vector3 (9,18,0), //185
+            new Vector3 (8,17,0), //186
+            new Vector3 (9,14,0), //187
+            new Vector3 (16,18,0), //188
+            new Vector3 (15,17,0), //189
+            new Vector3 (13,17,0), //190
 
         };
 
@@ -238,6 +289,24 @@ public class MeshOscuro : MonoBehaviour
             127,126,125, //t38
             127,116,128, //t39
             116,129,128, //t40
+
+            //cabeza
+            150,151,165, //t41
+            151,153,165, //t42
+            181,148,182, //t43
+            148,166,182, //t44
+            182,171,174, //t45
+            171,172,174, //t46
+            183,181,184, //t47
+            181,185,184, //t48
+            136,183,137, //t49
+            183,186,137, //t50
+            133,137,134, //t51
+            137,187,134, //t52
+            175,180,188, //t53
+            180,169,188, //t54
+            190,174,189, //t55
+            174,175,189, //t56
 
         };
 
