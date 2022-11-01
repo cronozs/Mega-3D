@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MeshOscuro : MonoBehaviour
+public class MeshEye : MonoBehaviour
 {
     MeshFilter meshFilter;
     Mesh mesh;
@@ -27,7 +27,7 @@ public class MeshOscuro : MonoBehaviour
 
         vertices = new Vector3[]
         {
-           // pierna izquierda 
+            // pierna izquierda 
             new Vector3 (0,0,0), //0
             new Vector3 (0,1,0), //1
             new Vector3 (9,0,0), //2
@@ -245,85 +245,22 @@ public class MeshOscuro : MonoBehaviour
             new Vector3 (11,15,0), //202
             new Vector3 (11,17,0), //203
             new Vector3 (15,15,0), //204
-
         };
 
         mesh.vertices = vertices;
 
         triangles = new int[]
         {
-             // pierna izquierda
-            6,7,8, //t1
-            7,26,8, //t2
-            12,13,26, //t3
-            13,9,26, //t4
-            19,18,9, //t5
-            18,30,9, //t6
-            18,17,32, //t7
-            17,31,32, //t8
-
-            //pierna derecha
-            40,59,44, //t9
-            59,45,44, //t10
-            59,39,48, //t11
-            39,49,48, //t12
-            39,60,51, //t13
-            60,52,51, //t14
-            61,56,52, //t15
-            56,53,52, //t16
-
-            //complemento piernas
-            33,34,62, //t17
-            34,63,62, //t18
-
-            //brazo derecho
-            69,73,78, //t19
-            73,91,78, //t20
-            74,92,91, //t21
-            92,80,91, //t22
-            68,93,75, //t23
-            93,92,75, //t24
-            93,94,84, //t25
-            94,95,84, //t26
-            96,97,95, //t27
-            97,83,95, //t28
-
-            //torso
-            100,121,64, //t29
-            121,122,64, //t30
-
-            //brazoo izquierdo
-            111,123,101, //t31
-            123,107,101, //t32
-            123,114,108, //t33
-            114,124,108, //t34
-            109,124,102, //t35
-            124,125,102, //t36
-            117,127,125, //t37
-            127,126,125, //t38
-            127,116,128, //t39
-            116,129,128, //t40
-
-            //cabeza
-            150,151,165, //t41
-            151,153,165, //t42
-            181,148,182, //t43
-            148,166,182, //t44
-            182,171,174, //t45
-            171,172,174, //t46
-            183,181,184, //t47
-            181,185,184, //t48
-            136,183,137, //t49
-            183,186,137, //t50
-            133,137,134, //t51
-            137,187,134, //t52
-            175,180,188, //t53
-            180,169,188, //t54
-            190,174,189, //t55
-            174,175,189, //t56
-
+             // Cara
+            187,201,196, //t1
+            201,197,196, //t2
+            191,192,190, //t3
+            192,174,190, //t4
+            201,184,202, //t5
+            184,203,202, //t6
+            204,175,198, //t7
+            175,188,198, //t8
         };
-
         mesh.triangles = triangles;
     }
 

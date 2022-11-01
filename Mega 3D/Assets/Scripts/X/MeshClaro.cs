@@ -231,6 +231,20 @@ public class MeshClaro : MonoBehaviour
             new Vector3 (16,18,0), //188
             new Vector3 (15,17,0), //189
             new Vector3 (13,17,0), //190
+            new Vector3 (10,17,0), //191
+            new Vector3 (10,18,0), //192
+            new Vector3 (10,14,0), //193
+            new Vector3 (10,13,0), //194
+            new Vector3 (14,14,0), //195
+            new Vector3 (13,14,0), //196
+            new Vector3 (13,15,0), //197
+            new Vector3 (16,15,0), //198
+            new Vector3 (14,15,0), //199
+            new Vector3 (14,17,0), //200
+            new Vector3 (9,15,0), //201
+            new Vector3 (11,15,0), //202
+            new Vector3 (11,17,0), //203
+            new Vector3 (15,15,0), //204
         };
 
         mesh.vertices = vertices;

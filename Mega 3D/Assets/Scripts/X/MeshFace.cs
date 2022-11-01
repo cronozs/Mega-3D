@@ -233,6 +233,18 @@ public class MeshFace : MonoBehaviour
             new Vector3 (13,17,0), //190
             new Vector3 (10,17,0), //191
             new Vector3 (10,18,0), //192
+            new Vector3 (10,14,0), //193
+            new Vector3 (10,13,0), //194
+            new Vector3 (14,14,0), //195
+            new Vector3 (13,14,0), //196
+            new Vector3 (13,15,0), //197
+            new Vector3 (16,15,0), //198
+            new Vector3 (14,15,0), //199
+            new Vector3 (14,17,0), //200
+            new Vector3 (9,15,0), //201
+            new Vector3 (11,15,0), //202
+            new Vector3 (11,17,0), //203
+            new Vector3 (15,15,0), //204
         };
 
         mesh.vertices = vertices;
@@ -243,6 +255,16 @@ public class MeshFace : MonoBehaviour
             185,192,191, //t2
             137,186,187, //t3
             186,184,187, //t4
+            134,187,194, //t5
+            187,193,194, //t6
+            131,134,89, //t7
+            134,90,89, //t8
+            90,195,86, //t9
+            195,87,86, //t10
+            196,197,177, //t11
+            197,198,177, //t12
+            197,190,199, //t13
+            190,200,199, //t14
         };
         mesh.triangles = triangles;
     }
