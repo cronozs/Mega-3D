@@ -22,12 +22,15 @@ public class DamegeController : MonoBehaviour
 
     private void OnBecameInvisible()
     {
+        Debug.Log("adios");
+        gameObject.SetActive(false);    
         Destroy(gameObject);
         coun.counter -= 1;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter(Collider collider)
     {
+        Debug.Log("colision");
         Destroy(gameObject);
     }
 }

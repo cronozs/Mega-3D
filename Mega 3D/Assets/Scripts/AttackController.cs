@@ -13,8 +13,12 @@ public class AttackController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        bullet.transform.position = player.transform.position + new Vector3(18, 9, 0);
-        Instantiate(bullet);
+       
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         tiempoAtaque -= Time.deltaTime;
         if (puedoAtacar == true && Input.GetKey(KeyCode.Space) && counter < 3)
         {
@@ -28,12 +32,6 @@ public class AttackController : MonoBehaviour
         {
             puedoAtacar = true;
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
     void InstanciarBala()
     {
