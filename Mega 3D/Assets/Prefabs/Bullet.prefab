@@ -101,7 +101,6 @@ GameObject:
   - component: {fileID: 6281014583689250122}
   - component: {fileID: -8947557346522234077}
   - component: {fileID: -4770124865593493085}
-  - component: {fileID: 2961015431287619802}
   - component: {fileID: 8875657143851836098}
   m_Layer: 0
   m_Name: Bullet
@@ -155,20 +154,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bala: {fileID: 6281014583689250117}
-  vel: 20
+  vel: 80
   coun: {fileID: 0}
---- !u!114 &2961015431287619802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6281014583689250117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32e63495a5de5dc4ab32773a682605cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &8875657143851836098
 SpriteRenderer:
   m_ObjectHideFlags: 0
