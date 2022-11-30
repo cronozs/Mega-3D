@@ -7,6 +7,8 @@ public class DamegeController : MonoBehaviour
     public GameObject bala;
     [SerializeField] float vel;
     public AttackController coun;
+    [SerializeField] TagId targetTag;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,10 @@ public class DamegeController : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
+        if (collider.gameObject.tag.Equals(targetTag.ToString()))
+        {
+            return;
+        }
         Debug.Log("colision");
         Destroy(gameObject);
     }

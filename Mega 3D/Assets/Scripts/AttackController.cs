@@ -35,7 +35,7 @@ public class AttackController : MonoBehaviour
     }
     void InstanciarBala()
     {
-        bullet.transform.position = player.transform.position + new Vector3(18,9,0);
+        bullet.transform.position = player.transform.position + new Vector3(15,9,0);
         Instantiate(bullet);
         counter += 1;
     }
